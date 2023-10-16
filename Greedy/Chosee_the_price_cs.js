@@ -8,7 +8,7 @@ let price = (prices) => {
     }
     temp++;
   }
-  console.log(max);
+  return max;
 };
 // price([6, 3, 2]);
 // price([2, 2, 2, 2, 2, 2, 2]);
